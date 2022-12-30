@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-const API_URL = '/api/v1/auth/';
-const FLUTTERWAVE_URL = '/api/v1/checkout/';
+const API_URL = 'https://raymart-api.onrender.com//api/v1/auth/';
+const FLUTTERWAVE_URL = 'https://raymart-api.onrender.com//api/v1/checkout/';
 
 // Register new user
 const register = async (userData) => {
